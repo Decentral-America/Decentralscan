@@ -3,10 +3,10 @@ import axios from 'axios';
 import {ApiClientService} from './ApiClientService';
 
 export const CAPTIONS = {
-    VERSION: 'Version',
-    CURRENT_HEIGHT: 'Current height',
-    BASE_TARGET: 'Base Target',
-    BLOCK_DELAY: 'Avg Block delay'
+    VERSION: 'Versión',
+    CURRENT_HEIGHT: 'Tamaño actual',
+    BASE_TARGET: 'Objetivo base',
+    BLOCK_DELAY: 'Tiempo promedio por Bloque'
 };
 
 const BLOCK_DELAY_INTERVAL = 10000;

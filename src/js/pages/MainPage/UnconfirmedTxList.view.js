@@ -17,7 +17,7 @@ export class UnconfirmedTxList extends React.Component {
         return (
             <React.Fragment>
                 <div className="panel-title">
-                    <span className="title">Unconfirmed Transactions ({this.props.count})</span>
+                    <span className="title">Transacciones sin confirmar ({this.props.count})</span>
                 </div>
                 {this.props.transactions.map((item) => {
                     return (<UnconfirmedTxListItem key={item.id} transaction={item}/>);
@@ -30,7 +30,7 @@ export class UnconfirmedTxList extends React.Component {
         return (
             <React.Fragment>
                 <div className="icon"></div>
-                <div className="line wide panel-empty-label"><label>All transactions are confirmed</label></div>
+                <div className="line wide panel-empty-label"><label>Todas las transacciones están confirmadas</label></div>
             </React.Fragment>
         );
     }

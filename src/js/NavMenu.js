@@ -15,22 +15,22 @@ const visibleIfConfigured = networkId => {
 
 const buildItems = () => {
     return [{
-        title: 'General info',
+        title: 'Información General',
         route: networkId => routeBuilder(networkId).root,
         visible: alwaysVisible,
         icon: 'icon-general'
     }, {
-        title: 'Blocks',
+        title: 'Bloques',
         route: networkId => routeBuilder(networkId).blocks.list,
         visible: alwaysVisible,
         icon: 'icon-blocks'
     }, {
-        title: 'Peers',
+        title: 'Nodos',
         route: networkId => routeBuilder(networkId).peers.list,
         visible: alwaysVisible,
         icon: 'icon-peers'
     }, {
-        title: 'Nodes',
+        title: 'Blockchain',
         route: networkId => routeBuilder(networkId).nodes.list,
         visible: alwaysVisible,
         icon: 'icon-nodes'

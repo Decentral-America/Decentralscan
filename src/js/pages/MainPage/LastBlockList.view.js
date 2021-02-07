@@ -13,7 +13,7 @@ export class LastBlockList extends React.PureComponent {
     };
 
     static defaultProps = {
-        title: 'Last blocks'
+        title: 'Bloques recientes'
     };
 
     render() {
@@ -24,7 +24,7 @@ export class LastBlockList extends React.PureComponent {
                 <div className="grid grid-baseline panel-title">
                     <span className="title">{this.props.title}</span>
                     <span className="grid-item-fixed">
-                        <Link className="no-accent" to={routes.blocks.list}>View all blocks</Link>
+                        <Link className="no-accent" to={routes.blocks.list}>Ver todos los bloques</Link>
                     </span>
                 </div>
                 {this.props.blocks.map((block) => {

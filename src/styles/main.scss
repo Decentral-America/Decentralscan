@@ -19,7 +19,7 @@ body {
     position: relative;
     height: calc(100% - 36px);
     display: block;
-    background-color: map-get($colors, basic50);
+    background-color: #282828;
     @include responsive_styles($layout);
     min-width: 360px;
     padding-bottom: 36px;
@@ -174,13 +174,7 @@ body {
                 width: 220px;
             }
 
-            &::after {
-                content: "Explorer";
-                left: 132px;
-                bottom: -8px;
-                position: relative;
-                @include font(headline1);
-            }
+            
         }
     }
 }
@@ -310,13 +304,13 @@ body {
                 @include font(headline2, disabled500);
 
                 &:hover {
-                    color: map-get($colors, black);
+                    color: map-get($colors, rgb(255, 255, 255));
                 }
             }
 
             &.current {
                 a {
-                    color: map-get($colors, black);
+                    color: map-get($colors, rgb(255, 255, 255));
                 }
 
                 &::before {

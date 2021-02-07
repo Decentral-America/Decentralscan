@@ -37,9 +37,9 @@ export class PeersPage extends React.Component {
                 <Loader fetchData={this.fetchData} errorTitle="Failed to load peer details">
                     <div className="content card">
                         <div className="headline">
-                            <span className="title large">Peers</span>
+                            <span className="title large">Nodos</span>
                             <label className="right">
-                                <span>Connected </span>
+                                <span>Conectados </span>
                                 <span className="bold">{this.state.peers.length}</span>
                             </label>
                         </div>

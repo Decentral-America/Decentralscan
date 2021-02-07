@@ -13,12 +13,12 @@ export class NodeList extends React.Component {
             <table className="nodes table-sm-transform">
                 <thead>
                     <tr>
-                        <th>Node</th>
-                        <th className="version">Version</th>
-                        <th className="height">Current height</th>
-                        <th className="target">Base target</th>
+                        <th>Nodo</th>
+                        <th className="version">Versión</th>
+                        <th className="height">Tamaño Actual</th>
+                        <th className="target">Objetivo base:</th>
                         <th className="utxs">UTxs</th>
-                        <th className="txs">Maintainer</th>
+                        <th className="txs">Mantenedor</th>
                     </tr>
                 </thead>
                 <tbody>

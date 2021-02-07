@@ -45,7 +45,7 @@ export class Pagination extends React.PureComponent {
 
         return (
             <div className="page-navigation right no-select">
-                <PageLimit className="page-link first" title="First" pageNumber={1}
+                <PageLimit className="page-link first" title="Primero" pageNumber={1}
                            onPageChange={this.handlePageChange}
                            disabled={currentPage === 1}/>
                 <PageLink pageNumber={lowPage - 1} title="..."
@@ -58,7 +58,7 @@ export class Pagination extends React.PureComponent {
                 <PageLink pageNumber={highPage + 1} title="..."
                           onPageChange={this.handlePageChange}
                           visible={highPage < lastPage}/>
-                <PageLimit className="page-link last" title="Last" pageNumber={lastPage}
+                <PageLimit className="page-link last" title="Ultimo" pageNumber={lastPage}
                            onPageChange={this.handlePageChange}
                            disabled={currentPage === lastPage}/>
             </div>

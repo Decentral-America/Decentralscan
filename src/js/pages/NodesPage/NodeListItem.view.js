@@ -13,13 +13,13 @@ export class NodeListItem extends React.Component {
                 <td data-label="Node">
                     <div className="line no-wrap"><a href={node.url} target="_blank">{node.url}</a></div>
                 </td>
-                <td data-label="Version">
+                <td data-label="Versión">
                     <div className="line">{node.version}</div>
                 </td>
-                <td data-label="Current height">
+                <td data-label="Tamaño actual">
                     <div className="line">{node.height}</div>
                 </td>
-                <td data-label="Base target">
+                <td data-label="Objetivo base">
                     <div className="line">{node.baseTarget}</div>
                 </td>
                 <td data-label="UTxs">

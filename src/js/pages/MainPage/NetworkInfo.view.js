@@ -10,7 +10,7 @@ const Caption = ({caption}) => {
 
     return (<div className="label-with-icon">
         <label>{caption}:</label>
-        <div className="icon question" data-for={TOOLTIP_ID} data-tip="Per last 10k blocks"></div>
+        <div className="icon question" data-for={TOOLTIP_ID} data-tip="Basado en los últimos 10 bloques"></div>
     </div>);
 };
 

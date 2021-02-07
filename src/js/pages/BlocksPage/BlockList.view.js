@@ -13,10 +13,10 @@ export class BlockList extends React.Component {
             <table className="blocks table-sm-transform">
                 <thead>
                     <tr>
-                        <th className="timestamp">№ / Timestamp</th>
-                        <th className="target nowrap">Base Target</th>
-                        <th>Block ID / Generator</th>
-                        <th className="txs">TXs</th>
+                        <th className="timestamp">№ / Fecha</th>
+                        <th className="target nowrap">Objetivo Base</th>
+                        <th>ID de Bloque / Generador</th>
+                        <th className="txs">Transacciones</th>
                     </tr>
                 </thead>
                 <tbody>

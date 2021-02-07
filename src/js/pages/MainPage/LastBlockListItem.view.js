@@ -17,7 +17,7 @@ export class LastBlockListItem extends React.PureComponent {
             <div className={rowClassName}>
                 <div className="block-img grid-item-fixed"></div>
                 <div>
-                    <div className="line">Block <BlockRef height={block.height}/> contains <span className="bold">{block.transactions}</span> transactions</div>
+                    <div className="line">Bloque <BlockRef height={block.height}/> contiene <span className="bold">{block.transactions}</span> transacciones</div>
                     <div className="line no-wrap">
                         <label>{block.id ? `ID: ${block.id}` : `Signature: ${block.signature}`}</label>
                     </div>
